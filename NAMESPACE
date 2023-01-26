@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    org.Cneoformans.var.grubii.KN99.eg,
+    org.Cneoformans.var.grubii.KN99.eg_dbconn,
+    org.Cneoformans.var.grubii.KN99.eg_dbfile,
+    org.Cneoformans.var.grubii.KN99.eg_dbschema,
+    org.Cneoformans.var.grubii.KN99.eg_dbInfo,
+
+    org.Cneoformans.var.grubii.KN99.egORGANISM
+)
+
