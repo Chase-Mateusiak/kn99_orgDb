@@ -2,8 +2,9 @@ Package: org.Cneoformans.var.grubii.KN99.eg.db
 Title: Genome wide annotation for Cryptococcus neoformans.var.grubii.KN99
 Description: Genome wide annotation for Cryptococcus neoformans.var.grubii.KN99. Created by: [ gla_para_bio_utils/makeBioconductorAnnotationDbi/makeBioconductorAnnotationDbi.r --gff FungiDB-61_CneoformansKN99.gff --gaf FungiDB-61_CneoformansKN99_GO.gaf -g Cryptococcus -s neoformans.var.grubii.KN99 --install ] , version: 0.1.0
 Version: 0.1
-Author: n/a
-Maintainer: NA <na@na.com>
+Authors@R: 
+    person("Chase", "Mateusiak", , "chasem@wustl.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2890-4242"))
 Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.58.0)
 Suggests: DBI, annotate, RUnit
 License: Artistic-2.0
